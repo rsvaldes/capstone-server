@@ -10,7 +10,7 @@ const bodyParser = require('body-parser');
 
 router.get('/breeds', (req, res, next) => {
   knex('breeds')
-    .select([])
+    .select(['name','picture','description','lifespan','size'])
     .then((data) => {
       res.send(data);
   })
@@ -19,4 +19,5 @@ router.get('/breeds', (req, res, next) => {
   });
 
 });
+
 module.exports = router;
