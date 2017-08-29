@@ -53,7 +53,5 @@ exports.seed = function(knex, Promise) {
           size:'American Eskimo dogs come in three size varieties - Toy - 9–12 inches and 6–10 lbs / 22–30 cm and 3–5 kg, Miniature - 12–15 inches and 10–17 lbs / 30–40 cm and 5–8 kg - Standard: 15–20 inches and 18–35 lbs / 40–50 cm and 8–16 kg.'
         }
       ]);
-    }).then(function(){
-      return knex.raw("SELECT setval('breeds_id_seq', (SELECT MAX(id) FROM breeds))");
-    });
+    })
 };
