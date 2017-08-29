@@ -50,7 +50,7 @@ exports.seed = function(knex, Promise) {
           picture:'https://cdn.pixabay.com/photo/2015/04/27/14/11/american-eskimo-dog-742010_960_720.jpg',
           description:'The American Eskimo is an affectionate, loving dog. The breed is easy to train and they are excellent with children because of the dog\'s high intelligence and its willingness to please. American Eskimos often rank among the top scorers in obedience trials. They like to work. Naturally wary of strangers, once properly introduced, they become friends. American Eskimos are highly intelligent, inquisitive and love to investigate. Without enough mental and physical exercise, they can become hyperactive and high-strung, spinning in circles. They are not always recommended for first-time dog owners.',
           lifespan:'12-15 Years',
-          size:'american Eskimo dogs come in three size varieties - Toy - 9–12 inches and 6–10 lbs / 22–30 cm and 3–5 kg, Miniature - 12–15 inches and 10–17 lbs / 30–40 cm and 5–8 kg - Standard: 15–20 inches and 18–35 lbs / 40–50 cm and 8–16 kg.'
+          size:'Eskimo dogs come in three size varieties - Toy - 9–12 inches and 6–10 lbs / 22–30 cm and 3–5 kg, Miniature - 12–15 inches and 10–17 lbs / 30–40 cm and 5–8 kg - Standard: 15–20 inches and 18–35 lbs / 40–50 cm and 8–16 kg.'
         }
       ]);
     })
