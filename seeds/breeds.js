@@ -54,9 +54,7 @@ exports.seed = function(knex, Promise) {
         }
       ]);
     })
-    .then(() => {
-    return knex.raw(
-      "SELECT setval('breeds_id_seq', (SELECT MAX(id) FROM breeds));"
-    );
-  });
+    .then(function(){
+      return knex.raw(SELECT setval(‘breeds_id_seq’, (SELECT MAX(id) FROM breeds)));
+    });
 };
