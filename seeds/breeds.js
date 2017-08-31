@@ -51,6 +51,13 @@ exports.seed = function(knex, Promise) {
           description:'The American Eskimo is an affectionate, loving dog. The breed is easy to train and they are excellent with children because of the dog\'s high intelligence and its willingness to please. American Eskimos often rank among the top scorers in obedience trials. They like to work. Naturally wary of strangers, once properly introduced, they become friends. American Eskimos are highly intelligent, inquisitive and love to investigate. Without enough mental and physical exercise, they can become hyperactive and high-strung, spinning in circles. They are not always recommended for first-time dog owners.',
           lifespan:'12-15 Years',
           size:'American Eskimo dogs come in three size varieties - Toy - 9–12 inches and 6–10 lbs / 22–30 cm and 3–5 kg, Miniature - 12–15 inches and 10–17 lbs / 30–40 cm and 5–8 kg - Standard: 15–20 inches and 18–35 lbs / 40–50 cm and 8–16 kg.'
+        },
+        {
+          name:'Boston Terrier',
+          picture: 'https://cdn.pixabay.com/photo/2015/02/12/17/52/canine-634020_960_720.jpg',
+          description: 'Boston is a gentle breed that typically has a strong, happy-go-lucky, and friendly personality with a merry sense of humour. Bostons are generally eager to please their owner and can be easily trained. They can be very protective of their owners, which may result in aggressive and territorial behavior toward other pets and strangers. The breed requires only a minimal amount of grooming. Both females and males are generally quiet and bark only when necessary,though early training in this regard is essential. Their usually sensible attitude towards barking makes them excellent choices for apartment dwellers. They enjoy being around people, get along well with children, the elderly, other canines, and non-canine pets, if properly socialized.',
+          lifespan: '11-13 years',
+          size: '15–25 lb & 9–15 in'
         }
       ]);
     })
