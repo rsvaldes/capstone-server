@@ -58,7 +58,36 @@ exports.seed = function(knex, Promise) {
           description: 'Boston is a gentle breed that typically has a strong, happy-go-lucky, and friendly personality with a merry sense of humour. Bostons are generally eager to please their owner and can be easily trained. They can be very protective of their owners, which may result in aggressive and territorial behavior toward other pets and strangers. The breed requires only a minimal amount of grooming. Both females and males are generally quiet and bark only when necessary,though early training in this regard is essential. Their usually sensible attitude towards barking makes them excellent choices for apartment dwellers. They enjoy being around people, get along well with children, the elderly, other canines, and non-canine pets, if properly socialized.',
           lifespan: '11-13 years',
           size: '15–25 lb & 9–15 in'
-        }
+        },
+        {
+          name:'German Shepherd',
+          picture: 'https://cdn.pixabay.com/photo/2013/12/22/10/57/german-shepherd-232393_960_720.jpg',
+          description: 'German Shepherds are moderately active dogs and are described in breed standards as self-assured. The breed is marked by a willingness to learn and an eagerness to have a purpose. They are curious, which makes them excellent guard dogs and suitable for search missions. They can become over-protective of their family and territory, especially if not socialized correctly. They are not inclined to become immediate friends with strangers. German Shepherds are highly intelligent and obedient, as well as being protective of their owners.',
+          lifespan: '9-13 Years',
+          size: '49-88 lb & 22-26 in'
+        },
+        {
+          name:'Boxer',
+          picture: 'https://cdn.pixabay.com/photo/2016/09/13/09/13/animals-1666775_960_720.jpg',
+          description: 'Boxers are a bright, energetic and playful breed and tend to be very good with children. They are patient and spirited with children but also protective, making them a popular choice for families. They are active, strong dogs and require adequate exercise to prevent boredom-associated behaviors such as chewing, digging, or licking. Boxers have earned a slight reputation of being "headstrong," which can be related to inappropriate obedience training. Owing to their intelligence and working breed characteristics, training based on corrections often has limited usefulness. Boxers, like other animals, typically respond better to positive reinforcement techniques such as clicker training, an approach based on operant conditioning and behaviorism, which offers the dog an opportunity to think independently and to problem-solve.',
+          lifespan: '9-15 Years',
+          size: '55-71 lb & 21-25 in'
+        },
+        {
+          name:'English Bulldog',
+          picture: 'https://cdn.pixabay.com/photo/2017/08/25/21/52/english-bulldog-2681531_960_720.jpg',
+          description: 'According to the American Kennel Club (AKC), a Bulldog\'s disposition should be "equable and kind, resolute, and courageous (not vicious or aggressive), and demeanor should be pacific and dignified. These attributes should be countenanced by the expression and behavior".Breeders have worked to reduce/remove aggression from these dogs. Most have a friendly, patient nature. Bulldogs are recognized as excellent family pets because of their tendency to form strong bonds with children. Generally, Bulldogs are known for getting along well with children, other dogs, and pets.',
+          lifespan: '10-11 Years',
+          size: '40-55 lb & 12-16 in'
+        },
+        {
+          name:'Coton de Tulear',
+          picture: 'https://cdn.pixabay.com/photo/2017/06/19/02/33/coton-de-tulear-2417968_960_720.jpg',
+          description: 'The Coton is a playful, affectionate, intelligent breed. Although generally quiet, it can become very vocal - grunting, barking, and making other noises when having fun. Cotons are known to have a habit of jumping up and walking on their hind legs to please people. Most Cotons love meeting new people and are very curious in new situations. Cotons are easy to train as they are very eager to please. Cotons love to swim, run, and play. They adapt well to any kind of living environment. A common trait of the Coton de Tulear behavior is to come alive in the evening.',
+          lifespan: '14-16 Years',
+          size: '7.7-13 lb & 9-12 in'
+        },
+
       ]);
     })
     .then(function(){
